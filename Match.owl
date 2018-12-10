@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#"
+     xml:base="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#is_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#is_a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Cup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match_official"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Awards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Away_competitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Away_competitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competition_name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competition_name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competition_stage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competition_stage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competition_name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competitors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competitors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Cup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Cup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Defender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Defender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Division"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Free_Kick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Free_Kick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goalkeeper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goalkeeper"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goals"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Header -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Header">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Home_Competitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Home_Competitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Competitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#League -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#League">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match_official -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match_official"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Midfielder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Midfielder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Overhead_kick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Overhead_kick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Penalty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Penalty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Promoted_to -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Promoted_to">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Relegated_to -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Relegated_to">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Striker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Striker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#man_of_the_match -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#man_of_the_match">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#stadom_city -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#stadom_city">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match_official"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Alaya_Brigui -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Alaya_Brigui">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Midfielder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Wajdi_Kechrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Wajdi_Kechrid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Midfielder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Zied_Boughattas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Zied_Boughattas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Defender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#bagded -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#bagded">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Striker"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#balbouli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#balbouli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goalkeeper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#ben_chrifia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#ben_chrifia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goalkeeper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#bougatass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#bougatass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Defender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#buffun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#buffun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Goalkeeper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#chikhawi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#chikhawi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Header"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#chormitti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#chormitti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Free_Kick"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#cristiano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#cristiano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#man_of_the_match"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#ess-ca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#ess-ca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Cup"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Match_official"/>
+        <is_a rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#matchOfficiel1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#ess-css -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#ess-css">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Cup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#ess-est -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#ess-est">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#League"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#hamza_mahmer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#hamza_mahmer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Overhead_kick"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#jmal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#jmal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Defender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#kichrida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#kichrida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Defender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#matchOfficiel1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#matchOfficiel1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#messi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#messi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Striker"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#msakni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#msakni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Striker"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#nagaz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#nagaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Defender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#salah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#salah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/planettech/ontologies/2018/11/untitled-ontology-14#Penalty"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
